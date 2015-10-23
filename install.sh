@@ -10,6 +10,7 @@ apt-get update
 
 echo "================= Adding some global settings ==================="
 mv gbl_env.sh /etc/profile.d/
+mkdir -p $HOME/.ssh/
 mv config $HOME/.ssh/
 mv 90forceyes /etc/apt/apt.conf.d/
 
