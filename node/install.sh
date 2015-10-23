@@ -9,9 +9,6 @@ export NVM_DIR="/root/.nvm"
 # add source of nvm to .bashrc - allows user to use nvm as a command
 echo "source ~/.nvm/nvm.sh" >> $HOME/.bashrc
 
-# tell nvm to use this version as default
-. /root/.nvm/nvm.sh && nvm alias default 0.12
-
 echo "================= Installing latest nodejs ==================="
 add-apt-repository -y ppa:chris-lea/node.js
 apt-get update
