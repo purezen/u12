@@ -7,7 +7,7 @@ curl https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 export NVM_DIR="/root/.nvm"
 
 # add source of nvm to .bashrc - allows user to use nvm as a command
-echo "source ~/.nvm/nvm.sh" >> .bashrc
+echo "source ~/.nvm/nvm.sh" >> $HOME/.bashrc
 
 # tell nvm to use this version as default
 . /root/.nvm/nvm.sh && nvm alias default 0.12
