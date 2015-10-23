@@ -45,7 +45,7 @@ echo "================= Installing default Java ==================="
 . java/install.sh
 
 echo "================= Installing default Ruby ==================="
-# . ruby/install.sh
+. ruby/install.sh
 
 echo "================= Cleaning package lists ==================="
 apt-get clean
