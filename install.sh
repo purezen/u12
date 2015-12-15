@@ -21,6 +21,7 @@ apt-get install -y \
   curl \
   gcc \
   make \
+  netcat \
   openssl \
   wget \
   nano \
