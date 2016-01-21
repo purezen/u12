@@ -1,4 +1,4 @@
 FROM ubuntu:12.04
 
-ADD . /tmp
-RUN /tmp/install.sh
+ADD . /u12
+RUN /u12/install.sh
