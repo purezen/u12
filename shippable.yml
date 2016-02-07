@@ -21,7 +21,7 @@ build:
   on_success:
     - if [ "$IS_PULL_REQUEST" != true ]; then docker push drydock/u12:tip; fi
 
-  integrations:
-    hub:
-      - integrationName: "dockerhub"
-        type: "docker"
+integrations:
+  hub:
+    - integrationName: "dockerhub"
+      type: "docker"
