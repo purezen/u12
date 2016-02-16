@@ -17,11 +17,3 @@ build:
   ci:
     # We can add sanity checks to ensure the image was built successfully here
     - /u12/test/test_lang.sh
-
-  on_success:
-    - if [ "$IS_PULL_REQUEST" != true ]; then docker push drydock/u12:tip; fi
-
-integrations:
-  hub:
-    - integrationName: "dockerhub"
-      type: "docker"
